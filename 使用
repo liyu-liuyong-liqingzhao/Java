@@ -12,6 +12,7 @@ javadoc -d folder(自己命名生成文件夹的名字) -author -version file(�
 //生成folder文件夹，打开其中index.html则可以看到网页。
 
 一个源文件可以有多个类，但只有一个为public class，并且只能是和文件名同名的类。
+字符串是类
 
 //标识符命名规范//
 包名：多单词时全小写。
@@ -23,4 +24,4 @@ java采用unicode字符集，标识符可以用中文命名。
 print()     //不会换行.
 println()  //末尾自动换行.
 
-字符串是类
+long型必须以L结尾(大小写皆可). 
