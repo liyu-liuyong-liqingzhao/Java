@@ -30,3 +30,6 @@ float型变量结尾必须加F(大小写皆可)
 float b=11.1;   //默认为double，double转float出错，编译不通过。
 char型变量也可以使用包括中文等各种语言的字符,大小为2个字节.可以用Unicode值来表示.
 char ch='\uXXXX'        //XXXX表示十六进制整数，如\u000a表示\n
+
+命令行使用GBK进行解析,当文件以其他方式(如UTF-8)保存时,命令行输出乱码.
+编码使用ANSI即表示GBK解析.
