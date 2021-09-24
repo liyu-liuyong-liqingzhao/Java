@@ -1,6 +1,14 @@
+整数类型还有byte,一个字节大小.
+byte、short、char相互或自身运算时提升为int型，其余类型运算则提升为空间大的类型.
+long型变量结尾必须加L(大小写皆可)
+long a=123;       //如果数值不超过int型，默认为int型，int提升为long，编译通过。
 byte c=1;
-byte d=c+1;   //报错，int转化为byte，只要出现整数则默认为int型.
-float e=c+1.1;  //报错，double转化为float，只要出现小数则默认为double型.
+byte d=c+1;       //报错，int转化为byte，只要出现整数则默认为int型.
+float型变量结尾必须加F(大小写皆可)
+float b=11.1;     //默认为double，double转float出错，编译不通过。
+float e=c+1.1;    //报错，double转化为float，只要出现小数则默认为double型.
+char型变量也可以使用包括中文等各种语言的字符,大小为2个字节.可以用Unicode值来表示.
+char ch='\uXXXX'        //XXXX表示十六进制整数，如\u000a表示\n
 
 String s1="";  //编译通过，字符串可以为空。
 char c1='';     //报错，字符不能为空，即字符必须为一个，不能多不能少。
