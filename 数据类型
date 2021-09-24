@@ -1,0 +1,16 @@
+byte c=1;
+byte d=c+1;   //报错，int转化为byte，只要出现整数则默认为int型.
+float e=c+1.1;  //报错，double转化为float，只要出现小数则默认为double型.
+
+String s1="";  //编译通过，字符串可以为空。
+char c1='';     //报错，字符不能为空，即字符必须为一个，不能多不能少。
+char a='a';
+int b=10;
+String str="hello";
+String str1=1.1f+"";           //输出"1.1",不会报错,因为出现双引号变为String.
+System.out.println(a+b+str);   //a+b为整数,再加上str变为String.输出107hello.
+System.out.println(str+a+b);   //a+str变成String,再加上b,还是String.输出helloa10
+System.out.println(str+1+2);   //输出hello12,全为String.
+//即从左往后运算,只要出现String,则后面的全部变为String.
+System.out.println('*'+'\t'+'*');      //输出93,因为单引号表示字符,字符用+号表示ASCII码运算.
+System.out.println('*'+''\t''+'*');    //输出*    *,因为出现了双引号字符串,则结果全为String.
