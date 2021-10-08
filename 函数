@@ -1,0 +1,9 @@
+double d1=Math.random();        //生成一个double型,范围[0.0,1.0)左闭右开.
+
+switch(a){
+    default:
+	      System.out.println("fault");  //如果default放前面或者中间而且不加break,则会继续往下运行.
+    case(0):
+	      System.out.println("0");
+	      break;
+}
