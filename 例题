@@ -1,0 +1,23 @@
+//输入月和日，判断是该年的第几天
+import java.util.Scanner;
+class c_2{
+    public static void main(String[] args){
+	      Scanner scan=new Scanner(System.in);
+	      int mouth=scan.nextInt();
+	      int day=scan.nextInt();
+	      int sum=0;
+//倒过来运算,没有break,把之前的月份的日子全部加上,最后再加上day.
+	      switch(mouth)
+	      {
+	          case 12:
+		            sum+=30;
+	          ......
+	          case 3:
+		            sum+=28/29;
+	          case 2: 
+		            sum+=31;
+	          case 1:
+		            sum+=day;	      
+	      }
+    }	
+}
