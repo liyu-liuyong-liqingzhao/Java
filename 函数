@@ -8,3 +8,10 @@ switch(a){
 	      System.out.println("0");
 	      break;
 }
+
+a:for(){
+    for(){
+         break a;      //结束指定循环。
+         continue a;   //结束指定循环的当次循环。
+    }
+}
