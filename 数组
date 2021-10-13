@@ -1,0 +1,14 @@
+数组初始值：
+int型为0
+浮点型为0.0
+char型为0或'\u0000'
+boolean型为false.
+引用数据类型为null.
+
+int[] arr;
+arr=new int[]{1,2,3};                         //不能省略new.
+arr=new int[3]{1,2,3};                        //报错,不能同时定义数组大小和初始化.
+int[] arr1={1,2,3};               	          //写成一行时可以省略new,因为类型已经固定.
+                                              //写成int arr1[]也行.
+String[][] arr2=new String[3][];              //二维数组前后各一个括号也行String[] arr2[].
+System.out.println(arr2[0][0]);               //报错,定义时没定义列就不能使用列.
