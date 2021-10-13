@@ -1,7 +1,7 @@
 alt+/                     	  	补全代码的声明。
 CTRL+L                      		快速修复。
 CTRL+SHIFT+O    	            	批量导包。
-CTRL                        		查看鼠标指向的类库源代码。
+CTRL/CTRL+SHIFT+T               查看鼠标指向的类库源代码。
 CTRL+O                      		进入类库源代码后用来查找某个函数。
 CTRL+/                       		单行注释。
 CTRL+SHIFT+/                 		多行注释。
@@ -11,3 +11,6 @@ CTRL+D                         	删除指定行的代码。
 ALT+DOWN/UP 	                	上下移动代码。
 SHIFT+ENTER                   	切换到下一行代码空位。
 CTRL+SHIFT+ENTER              	切换到上一行代码空位。
+ALT+LEFT                        退回前一个编辑页面
+ALT+RIGHT                       进入下一个编辑页面
+CTRL+T                          查看类的继承结构
