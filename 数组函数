@@ -1,0 +1,6 @@
+import  java.util.Arrays;
+boolean isture=Arrays.equals(arr1,arr2)           //比较数组是否相等。
+Arrays.toString(arr1);                            //输出整个数组。
+Arrays.fill(arr1,10);                             //把数组所有元素变为10。
+Arrays.sort(arr1);                                //把数组从小到大排序。
+Arrays.binarySearch(arr1,10)                      //二分查找某个值,返回下标。
