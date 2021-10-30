@@ -1,4 +1,5 @@
 double d1=Math.random();        //生成一个double型,范围[0.0,1.0)左闭右开.
+math.round();                   //加上0.5之后向下取整。
 a.equals(b);                    //比较对象内容是否相同,而==比较地址是否相同.
 
 //switch括号的数据类型:byte,short,int,char,枚举,String.
