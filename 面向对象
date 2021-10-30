@@ -3,3 +3,23 @@
 方法区：储存类信息、常量、静态变量、及时编译器翻译后的代码等。
 
 权限修饰符：private,public,缺省,protected
+
+public class A{
+       public static void main(String[] args){
+	B b=new B();
+	new B().fun1();             //匿名对象。
+	new B().fun2();             //每一个匿名都创建一个新的对象。
+}
+class B{
+      public void fun1(){
+      }
+      public void fun2(){
+      }
+}
+
+
+function(1);                  //重载会自动类型提升，如果第一个注释掉会自动执行第二个。
+public void function(int i){
+}
+public void function(double i){
+}
