@@ -16,10 +16,3 @@ class B{
       public void fun2(){
       }
 }
-
-
-function(1);                  //重载会自动类型提升，如果第一个注释掉会自动执行第二个。
-public void function(int i){
-}
-public void function(double i){
-}
