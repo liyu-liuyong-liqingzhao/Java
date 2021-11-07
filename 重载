@@ -1,0 +1,12 @@
+重载只看参数，不看返回值。
+class.fs(new String[]{"a","b","c"});            //因为数组和可变个数形参认为相同，
+class.fs("a","b","c");                          //所以两种传参对可变个数形参函数都可以。
+public void fs(String ... strs){                //传入可变个数的形参，且只能有一个声明在最后。
+       for(int i=0;i<strs.length;i++{           //类似数组的使用。
+	System.out.println(strs[i]);  
+       }
+}
+public void fs(String str){                     //可以构成重载。
+}
+public void fs(String[] strs){                  //类型相同的数组不构成重载，认为是同一个。
+}
