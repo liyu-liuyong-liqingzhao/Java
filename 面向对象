@@ -2,10 +2,17 @@
 栈：储存局部变量等。
 方法区：储存类信息、常量、静态变量、及时编译器翻译后的代码等。
 
+权限修饰符：private,public,缺省,protected
+
 给变量、形参赋值时，如果是基本数据类型则赋值数据值，
 如果是引用数据类型则赋值地址值。
 
-权限修饰符：private,public,缺省,protected
+	String s1="aaa";
+	self.change(s1);             //虽然传入地址值,
+	System.out.println(s1);      //输出aaa,因为字符串常量不能更改,所以会重新给s赋一个地址值并创建"bbb".
+public void change(String s){
+       	s="bbb";
+}
 
 public class A{
        public static void main(String[] args){
