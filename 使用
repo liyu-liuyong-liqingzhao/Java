@@ -1,9 +1,14 @@
-import java.util.Scanner;            //输入要先在类之前导入模块.
+import java.util.Scanner;       //输入要先在类之前导入模块.
+import java.util.*;             //导入util包下全部结构.
+import static                   //导入指定类或接口中的静态结构:属性或方法.
+使用不同包下的同名类时加上包名.
+package.class a=new package.class();
+
 public class c1{
        public static void main(String[] args){
 	Scanner scan=new Scanner(System.in);
 	int num=scan.nextInt();            //字符串是next(),其余都是next加上类型名(首字母大写).
-                                     //没有char型,使用charAt函数.
+                                           //没有char型,使用charAt函数.
 	String ch=scan.next();
 	char temp=ch.charAt(0);            //获取字符串指定下标的字符 
        }
