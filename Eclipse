@@ -1,5 +1,5 @@
 alt+/                     	  	补全代码的声明。
-CTRL+L                      		快速修复。
+CTRL+1                      		快速修复。
 CTRL+SHIFT+O    	            	批量导包。
 CTRL/CTRL+SHIFT+T               查看鼠标指向的类库源代码。
 CTRL+O                      		进入类库源代码后用来查找某个函数。
